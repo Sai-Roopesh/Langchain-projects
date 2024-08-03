@@ -2,12 +2,6 @@
 
 This Streamlit app allows you to test and compare various GPT models using your OpenAI API key.
 
-## Features
-
-- Test multiple GPT models side by side
-- Compare outputs and performance
-- Easy-to-use interface
-
 ## Try It Out
 
 You can access the live application here:
