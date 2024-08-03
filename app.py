@@ -35,7 +35,7 @@ def generate_response(question, openai_api_key, model, temperature=0.2, max_toke
 
 ## Title
 
-st.title("Q&A Chatbot")
+st.title("Test GPT models")
 
 ## Sidebar
 
