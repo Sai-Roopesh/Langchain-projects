@@ -1,28 +1,62 @@
-# GPT Model Tester
+# GPT Model Comparator
 
-This Streamlit app allows you to test and compare various GPT models using your OpenAI API key.
+A Streamlit app for testing, comparing, and analyzing responses from various GPT models using the OpenAI API.
 
-## Try It Out
+## Table of Contents
 
-You can access the live application here:
-[https://test-gpt-models.streamlit.app/](https://test-gpt-models.streamlit.app/)
+- [Features](#features)
+- [Live Demo](#live-demo)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [Local Development](#local-development)
+- [Contributing](#contributing)
+- [License](#license)
+- [Disclaimer](#disclaimer)
+
+## Features
+
+- Compare multiple GPT models simultaneously
+- Adjust temperature and max tokens for each model individually
+- View detailed metadata including token counts, inference time, and estimated cost
+- Generate and download PDF reports of comparison results
+- User-friendly interface with real-time updates
+
+## Live Demo
+
+Try the live application here: [https://test-gpt-models.streamlit.app/](https://test-gpt-models.streamlit.app/)
 
 ## Requirements
 
 - OpenAI API key
+- Python 3.7+
+- Required Python packages (see [Installation](#installation))
 
-## Usage
+## Installation
 
-1. Visit the app URL
-2. Enter your OpenAI API key
-3. Select the models you want to test
-4. Input your prompt
-5. Compare the results
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gpt-model-comparator.git
+   cd gpt-model-comparator
 
-## Local Development
+2. Create and activate a virtual environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
-To run this app locally:
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-1. Clone the repository
-2. Install the required dependencies:
-3. Run the Streamlit app:
+
+## To run and test
+
+```bash
+streamlit run app.py
+```
+
+
+Contributions are welcome! Please fork this repository and submit a pull request for review.
+
+
