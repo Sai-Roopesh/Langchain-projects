@@ -8,12 +8,7 @@ A Streamlit app for testing, comparing, and analyzing responses from various GPT
 - [Live Demo](#live-demo)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Code Overview](#code-overview)
-- [Local Development](#local-development)
-- [Contributing](#contributing)
-- [License](#license)
-- [Disclaimer](#disclaimer)
+- [To run and test](#to-run-and-test)
 
 ## Features
 
